@@ -1,2 +1,2 @@
 #!/bin/bash
-sed 'n;d' <&0
+paste -d, - - | cut -d, -fl
