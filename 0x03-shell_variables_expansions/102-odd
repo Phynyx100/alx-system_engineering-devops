@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR%2==1' file ; awk 'NR%2==1' <&0
+paste - - | cut -f1
